@@ -1,0 +1,89 @@
+body {
+	padding-bottom: 20px;
+}
+
+.navbar {
+	margin-bottom: 20px;
+}
+
+.nav-link {
+	justify-content: right;
+	color: black;
+}
+
+.landingpage {
+	width: 1520px;
+	height: 840px;
+	background-image: url("./images//Mask_Group_6.png");
+}
+
+h1 {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+}
+
+.btn {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+}
+
+h3 {
+	color: #ffb300;
+}
+
+.left {
+	float: left;
+	padding: 0 20px 20px 0;
+}
+
+.container {
+	padding-top: 80px;
+}
+
+.block {
+	text-align: justify;
+}
+
+.black {
+	padding-top: 50px;
+	padding-left: 140px;
+	padding-bottom: 50px;
+	background-color: black;
+}
+
+.white {
+	color: white;
+	text-align: justify;
+}
+
+.small {
+	padding-top: 50px;
+	padding-left: 200px;
+	padding-bottom: 50px;
+}
+
+.footer {
+	background-color: #ffb300;
+	padding-top: 50px;
+	padding-left: 140px;
+	padding-bottom: 50px;
+}
+
+.d-inline {
+	padding-left: 20px;
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
